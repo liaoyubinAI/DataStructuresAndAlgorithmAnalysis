@@ -5,11 +5,11 @@
  */
 class IntCell
 {
-  public:
-    explicit IntCell(int initialValue = 0);
-    int read() const;
-    void write(int x);
+  public:    
+  	explicit IntCell( int initialValue = 0 ) ;
+    	int read( )  const;
+    	void write(int x);
   private:
-    int storedValue;
+    	int storedValue;
 };
 #endif

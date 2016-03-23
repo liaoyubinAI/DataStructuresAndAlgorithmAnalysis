@@ -3,7 +3,7 @@
 using namespace std;
 int main( )
 {
-	IntCell m(0);	//Or ,IntCell m(0); but not IntCell  m();
+	IntCell m;	//Or ,IntCell m(0); but not IntCell  m();
 	m.write(5);
 	cout<<"Cell contents: "<<m.read()<<endl;
 

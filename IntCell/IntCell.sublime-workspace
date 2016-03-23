@@ -1,0 +1,318 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Disp",
+				"DisplayElement"
+			],
+			[
+				"Dis",
+				"DisplayElement"
+			],
+			[
+				"In",
+				"IntCell"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/hadoop/workspace/c++/stl/test2.cpp",
+			"settings":
+			{
+				"buffer_size": 784,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "#include <iostream>\n#include <vector>\n\nusing namespace std;\n\nint mian()\n{\n	int \n}",
+			"file": "/home/hadoop/workspace/gitWorkspace/Leetcode/inputTest.cpp",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 81,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/*Remove Duplicates from Sorted Array\nGiven a sorted array, remove the duplicates in place such that each element appear only once and return the new length.\nDo not allocate extra space for another array, you must do this in place with constant memory.\nFor example,\nGiven input array A = [1,1,2],\nYour function should return length = 2, and A is now [1,2].\n*/\n#include <iostream>\nusing namespace std;\n\nint main()\n{\n	\n	int* array;\n	array = argv[1];\n	int n = argv[2];\n	int index = 0;\n	if (n == 0)\n		return 0;\n	for (int i = 1; i < n; ++i)\n	{\n		if (array[index] != array[i])\n			array[++index] = array[i];\n	}\n	cout << index + 1<< endl;\n	return index + 1;\n}",
+			"file": "/home/hadoop/workspace/gitWorkspace/Leetcode/RemoveDuplicatesFromSortedArray.cpp",
+			"file_size": 699,
+			"file_write_time": 131031876065568946,
+			"settings":
+			{
+				"buffer_size": 651,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/C++/C++ Single File.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/hadoop/workspace/gitWorkspace/Leetcode/RemoveDuplicatesFromSortedArray",
+		"/home/hadoop/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/hadoop/workspace/gitWorkspace/DataStructuresAndAlgorithmAnalysis/IntCell/IntCell.cpp",
+		"/home/hadoop/workspace/gitWorkspace/DataStructuresAndAlgorithmAnalysis/IntCell/IntCell.h",
+		"/home/hadoop/workspace/gitWorkspace/DataStructuresAndAlgorithmAnalysis/IntCell/TestIntCell.cpp"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"elementType",
+			"initialValue"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/hadoop/workspace/c++/stl/test2.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 784,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								783,
+								783
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/hadoop/workspace/gitWorkspace/Leetcode/inputTest.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 81,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								79,
+								79
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/hadoop/workspace/gitWorkspace/Leetcode/RemoveDuplicatesFromSortedArray.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 651,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								416,
+								416
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 300.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 130.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/C++/C++ Single File.sublime-build",
+	"project": "IntCell.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
