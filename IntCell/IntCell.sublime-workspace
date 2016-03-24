@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"perc",
+				"percentTats"
+			],
+			[
 				"Disp",
 				"DisplayElement"
 			],
@@ -20,33 +24,11 @@
 	"buffers":
 	[
 		{
-			"file": "/home/hadoop/workspace/c++/stl/test2.cpp",
+			"file": "/home/hadoop/workspace/machinelearninginaction/Ch06/svmMLiA.py",
 			"settings":
 			{
-				"buffer_size": 784,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "#include <iostream>\n#include <vector>\n\nusing namespace std;\n\nint mian()\n{\n	int \n}",
-			"file": "/home/hadoop/workspace/gitWorkspace/Leetcode/inputTest.cpp",
-			"file_size": -1,
-			"file_write_time": -1,
-			"settings":
-			{
-				"buffer_size": 81,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "/*Remove Duplicates from Sorted Array\nGiven a sorted array, remove the duplicates in place such that each element appear only once and return the new length.\nDo not allocate extra space for another array, you must do this in place with constant memory.\nFor example,\nGiven input array A = [1,1,2],\nYour function should return length = 2, and A is now [1,2].\n*/\n#include <iostream>\nusing namespace std;\n\nint main()\n{\n	\n	int* array;\n	array = argv[1];\n	int n = argv[2];\n	int index = 0;\n	if (n == 0)\n		return 0;\n	for (int i = 1; i < n; ++i)\n	{\n		if (array[index] != array[i])\n			array[++index] = array[i];\n	}\n	cout << index + 1<< endl;\n	return index + 1;\n}",
-			"file": "/home/hadoop/workspace/gitWorkspace/Leetcode/RemoveDuplicatesFromSortedArray.cpp",
-			"file_size": 699,
-			"file_write_time": 131031876065568946,
-			"settings":
-			{
-				"buffer_size": 651,
-				"line_ending": "Unix"
+				"buffer_size": 15974,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -98,6 +80,37 @@
 	},
 	"file_history":
 	[
+		"/home/hadoop/workspace/machinelearninginaction/Ch06/testDigits/1_6.txt",
+		"/home/hadoop/workspace/machinelearninginaction/Ch06/testDigits/1_5.txt",
+		"/home/hadoop/workspace/machinelearninginaction/Ch06/testDigits/1_4.txt",
+		"/home/hadoop/workspace/machinelearninginaction/Ch06/testDigits/1_3.txt",
+		"/home/hadoop/workspace/machinelearninginaction/Ch06/testDigits/1_2.txt",
+		"/home/hadoop/workspace/machinelearninginaction/Ch06/testDigits/1_1.txt",
+		"/home/hadoop/workspace/machinelearninginaction/Ch06/testDigits/1_0.txt",
+		"/home/hadoop/workspace/machinelearninginaction/Ch06/testSetRBF2.txt",
+		"/home/hadoop/workspace/machinelearninginaction/Ch06/testSetRBF.txt",
+		"/home/hadoop/workspace/machinelearninginaction/Ch06/testSet.txt",
+		"/home/hadoop/workspace/machinelearninginaction/Ch05/logRegres.py",
+		"/home/hadoop/workspace/gitWorkspace/DataStructuresAndAlgorithmAnalysis/STD/22_5.cpp",
+		"/home/hadoop/workspace/gitWorkspace/DataStructuresAndAlgorithmAnalysis/STD/test22_4.cpp",
+		"/home/hadoop/workspace/gitWorkspace/DataStructuresAndAlgorithmAnalysis/STD/22_3.cpp",
+		"/home/hadoop/workspace/gitWorkspace/DataStructuresAndAlgorithmAnalysis/STD/22_2.cpp",
+		"/home/hadoop/workspace/gitWorkspace/DataStructuresAndAlgorithmAnalysis/STD/22_1.cpp",
+		"/home/hadoop/workspace/gitWorkspace/DataStructuresAndAlgorithmAnalysis/STD/22_5",
+		"/home/hadoop/workspace/gitWorkspace/DataStructuresAndAlgorithmAnalysis/STD/test22_4",
+		"/home/hadoop/workspace/machinelearninginaction/Ch03/trees.py",
+		"/home/hadoop/workspace/machinelearninginaction/Ch03/treePlotter.py",
+		"/home/hadoop/workspace/machinelearninginaction/Ch03/lenses.txt",
+		"/home/hadoop/workspace/machinelearninginaction/Ch03/classifierStorage.txt",
+		"/home/hadoop/workspace/machinelearninginaction/Ch03/treePlotter.pyc",
+		"/home/hadoop/workspace/machinelearninginaction/Ch02/kNN.py",
+		"/home/hadoop/workspace/machinelearninginaction/Ch02/datingTestSet.txt",
+		"/home/hadoop/workspace/machinelearninginaction/Ch02/datingTestSet2.txt",
+		"/home/hadoop/workspace/machinelearninginaction/Ch02/trainingDigits/0_0.txt",
+		"/home/hadoop/workspace/gitWorkspace/Leetcode/RemoveDuplicatesFromSortedArray.cpp",
+		"/home/hadoop/workspace/c++/stl/test2.cpp",
+		"/home/hadoop/workspace/gitWorkspace/Leetcode/inputTest.cpp",
+		"/home/hadoop/workspace/machinelearninginaction/Ch02/KNN.PY",
 		"/home/hadoop/workspace/gitWorkspace/Leetcode/RemoveDuplicatesFromSortedArray",
 		"/home/hadoop/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
 		"/home/hadoop/workspace/gitWorkspace/DataStructuresAndAlgorithmAnalysis/IntCell/IntCell.cpp",
@@ -120,6 +133,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"didntLike",
+			"smallDoses",
+			"largeDoses",
 			"elementType",
 			"initialValue"
 		],
@@ -129,6 +145,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"3",
+			"2",
+			"1"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -139,93 +158,42 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/home/hadoop/workspace/c++/stl/test2.cpp",
+					"file": "/home/hadoop/workspace/machinelearninginaction/Ch06/svmMLiA.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 784,
+						"buffer_size": 15974,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								783,
-								783
+								9833,
+								9833
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/C++/C++.sublime-syntax"
+							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/hadoop/workspace/gitWorkspace/Leetcode/inputTest.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 81,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								79,
-								79
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4680.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/hadoop/workspace/gitWorkspace/Leetcode/RemoveDuplicatesFromSortedArray.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 651,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								416,
-								416
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 300.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
 				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -246,11 +214,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.554986522911,
 			1.0
 		],
 		"rows":
